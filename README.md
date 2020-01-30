@@ -38,7 +38,7 @@ letter of the key so that it can be exported where it's listed as `CustomName`
 in the example above. Then you add the json key `_snipeit_custom_name_1`
 in the final column so the name exists when the JSON is marshaled.
 
-After you've added it there, you'll need to also update the Populate_Payload
+After you've added it there, you'll need to also update the PopulatePayload
 function to set the values to the new key you added in the struct.
 ```
 func PopulatePayload(assetInfo SnipeUpdatePayload) SnipeUpdatePayload{
