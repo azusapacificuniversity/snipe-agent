@@ -8,7 +8,7 @@ expanded to other operating systems at a later date.
 ## Configuration
 To configure this program for your own use, you'll need to edit some of the base
 code for your setup. Many, if not all, of the settings will be in the *Build*
-section below, but not all are able to be set this way. It's importanty to note
+section below, but not all are able to be set this way. It's important to note
 that only variables that are Strings, (not INT or other types) can be set
 through build variables. To configure other types, you'll need to edit the
 variable section near the top of the `snipe-agent.go` file.
